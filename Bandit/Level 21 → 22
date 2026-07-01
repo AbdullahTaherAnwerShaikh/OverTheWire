@@ -1,0 +1,10 @@
+# Level 21 → 22
+
+## Goal
+There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).
+
+## Commands
+cron, crontab, crontab(5) (use “man 5 crontab” to access this)
+
+## Learned
+- Cron job copied the password to a temporary file which was named using md3sum
