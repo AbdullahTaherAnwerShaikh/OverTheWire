@@ -1,0 +1,14 @@
+# Level 2 → 3
+
+## Goal
+Find the password.
+
+## Commands
+find . -type f -size 1033c ! -perm /111
+
+cat ./maybehere07/.file2
+
+## Learned
+- find
+- file permissions
+- file size filtering
