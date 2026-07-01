@@ -1,14 +1,12 @@
 # Level 2 → 3
 
 ## Goal
-Find the password.
+The password for the next level is stored in a file called --spaces in this filename-- located in the home directory
 
 ## Commands
-find . -type f -size 1033c ! -perm /111
+ls , cd , cat , file , du , find
 
-cat ./maybehere07/.file2
+cat ./"--spaces in this filename--"
 
 ## Learned
-- find
-- file permissions
-- file size filtering
+- Printing files with spaces in their name
