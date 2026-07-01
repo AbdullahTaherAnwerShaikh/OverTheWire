@@ -1,0 +1,12 @@
+# Level 26 → 27
+
+## Goal
+Good job getting a shell! Now hurry and grab the password for bandit27!
+
+## Commands
+ls, cat
+
+./bandit27-do cat /etc/bandit_pass/bandit27
+
+## Learned
+- While inside the bandit26 shell, I had to utilize a file which ran the given command as user bandit27.
