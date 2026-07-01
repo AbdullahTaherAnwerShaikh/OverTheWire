@@ -1,0 +1,12 @@
+# Level 4 → 5
+
+## Goal
+The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
+
+## Commands
+ls , cd , cat , file , du , find
+
+file ./*
+
+## Learned
+- File is used to determine the type of file rather than depending on the extension.
