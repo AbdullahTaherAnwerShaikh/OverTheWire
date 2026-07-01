@@ -1,0 +1,13 @@
+# Level 3 → 4
+
+## Goal
+The password for the next level is stored in a hidden file in the inhere directory.
+
+## Commands
+ls , cd , cat , file , du , find
+
+cat ...Hiding-From-You
+
+## Learned
+- Listing hidden files ls -a
+- Files are hidden by placing a . in front of their names
