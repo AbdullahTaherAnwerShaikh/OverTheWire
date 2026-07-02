@@ -1,0 +1,13 @@
+# Level 0 → 1
+
+## Goal:
+Find out where the password is hidden in source but right click is not allowed.
+
+## Method:
+Use Ctrl + U
+
+## Command / Payload:
+Ctrl + U or right click + view page source
+
+## Notes:
+The password is stored in the page source and not anywhere else.
