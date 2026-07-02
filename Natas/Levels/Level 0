@@ -1,0 +1,13 @@
+# Natas 0
+
+## Goal:
+Find out where the password is hidden in source.
+
+## Method:
+Either view page source or Ctrl + U
+
+## Command / Payload:
+Ctrl + U
+
+## Notes:
+The password is stored in the page source and not anywhere else.
