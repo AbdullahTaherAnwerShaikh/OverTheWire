@@ -1,0 +1,16 @@
+# Level 29 → 30
+
+## Goal
+There is a git repository at ssh://bandit29-git@bandit.labs.overthewire.org/home/bandit29-git/repo via the port 2220. The password for the user bandit29-git is the same as for the user bandit29.
+
+## Commands
+git branch
+git switch <branch>
+
+git clone ssh://bandit29-git@bandit.labs.overthewire.org:2220/home/bandit29-git/repo Bandit29
+
+## Learned
+- Accessing different git branches
+
+## Notes
+Search throught the branches to find the password
