@@ -1,0 +1,13 @@
+# Level 32 → 33
+
+## Goal
+After all this git stuff, it’s time for another escape. Good luck!
+
+## Commands
+$0
+
+## Learned
+- 
+
+## Notes
+Terminal was stuck in uppercase shell, used $0 to get a bash shell and then retrieved the password normally
