@@ -1,0 +1,16 @@
+# Level 28 → 29
+
+## Goal
+There is a git repository at ssh://bandit28-git@bandit.labs.overthewire.org/home/bandit28-git/repo via the port 2220. The password for the user bandit28-git is the same as for the user bandit28.
+
+## Commands
+git log 
+git show
+
+git clone ssh://bandit28-git@bandit.labs.overthewire.org:2220/home/bandit28-git/repo Bandit28
+
+## Learned
+- Accessing git history through linux terminal
+
+## Notes
+Using same method as bandit27, except the password is stored inside the git history
