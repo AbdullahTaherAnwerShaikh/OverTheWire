@@ -1,0 +1,15 @@
+# Level 27 → 28
+
+## Goal
+There is a git repository at ssh://bandit27-git@bandit.labs.overthewire.org/home/bandit27-git/repo via the port 2220. The password for the user bandit27-git is the same as for the user bandit27.
+
+## Commands
+git
+
+git clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
+
+## Learned
+- Cloning a repo through an ssh rather than https
+
+## Notes
+Using SSH, log in as bandit27-git to bandit.labs.overthewire.org on port 2220, then clone the Git repository stored at /home/bandit27-git/repo.
