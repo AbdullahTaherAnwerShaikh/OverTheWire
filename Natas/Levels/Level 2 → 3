@@ -1,0 +1,13 @@
+# Level 2 → 3
+
+## Goal:
+Look for the password where How does a website tell search engines (like Google) "don't index this directory"?
+
+## Method:
+adding /robots.txt to the url, adding the directory found to the url.
+
+## Command / Payload:
+http://natas3.natas.labs.overthewire.org/robots.txt
+
+## Notes:
+robot.txt is public. Anyone can read it.
