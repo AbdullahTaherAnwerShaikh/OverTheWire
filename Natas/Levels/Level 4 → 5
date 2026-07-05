@@ -1,0 +1,12 @@
+# Level 4 → 5
+
+## Goal + Theory:
+This level is about cookies, session information is stored in cookies. Shifting from http headers to http cookies. With an http request cookies are sent which remember your login state. hen a website wants to remember something about you, it often stores a cookie in your browser.
+
+## Method to solve:
+Access the cookies by navigating to storage stored by the computer for the website and changing the value of loggedin to 1.
+
+## Commands or code snippets (if any used)
+
+## Notes:
+Cookies store your data, accessing them and inspecting them is crucial.
