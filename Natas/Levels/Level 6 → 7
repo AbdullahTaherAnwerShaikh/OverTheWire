@@ -1,0 +1,13 @@
+# Level 6 → 7
+
+## Goal + Theory:
+This time the website has links to home and about, but the part to pay attention to is how the url changes.
+
+## Method to solve:
+Try changing the url to get a different page which could contain the password for the next level. 
+The code uses
+
+## Commands or code snippets (if any used)
+
+## Notes:
+If the application doesn't validate the input properly, an attacker may be able to access unintended files.
