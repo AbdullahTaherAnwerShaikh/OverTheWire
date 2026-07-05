@@ -1,0 +1,12 @@
+# Level 5 → 6
+
+## Goal + Theory:
+We are asked for a secret password. To intrepret how it determines the password we are given the source code.
+
+## Method to solve:
+In the code they are using another directory which contains the password. Simply navigate to the directory through the url.
+
+## Commands or code snippets (if any used)
+
+## Notes:
+Identify the included files within the code.
