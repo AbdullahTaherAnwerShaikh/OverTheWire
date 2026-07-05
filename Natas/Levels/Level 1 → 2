@@ -1,0 +1,13 @@
+# Level 1 → 2
+
+## Goal:
+Find out where the password is hidden but this time its not in the page source. The password is stored somewhere in the files folder.
+
+## Method:
+adding /files to the url since the url of the new image was /files/pixel.png.
+
+## Command / Payload:
+http://natas2.natas.labs.overthewire.org/files/
+
+## Notes:
+Be able to navigate the files using the url.
