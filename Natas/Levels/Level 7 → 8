@@ -1,0 +1,11 @@
+# Level 7 → 8
+
+## Goal + Theory:
+We are required input a secret password again, which will return the password if correct. The source code is given to us. Inside the code a function encodes the code we give multiple times and compares with the code 
+
+## Method to solve:
+Decoding the code using the same decodes that are used in the function should give me the password. hex2bin() -> strrev() -> base64_decode()
+
+## Commands or code snippets (if any used)
+
+## Notes:
