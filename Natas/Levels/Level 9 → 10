@@ -1,0 +1,15 @@
+# Level 9 → 10
+
+## Goal + Theory:
+This time they used the same objective as previous level although they added a filter on the input. The filter checks for chaining operators which stops us from doing the same method of command injection like last time.
+
+## Method to solve:
+Try to find another way to inject a command into grep without usinng chaining operators.
+
+## Commands or code snippets (if any used)
+passthru("grep -i $key dictionary.txt"); -from source code
+
+"" /etc/natas_webpass/natas11 
+
+## Notes:
+"x /etc/natas_webpass/natas11 " im trying to do this because i noticed i can just get it to search another file itself but i just get the entire print of dictionary.txt. "" prints every line.
