@@ -1,0 +1,16 @@
+# Level 10 → 11
+
+## Goal + Theory:
+"Cookies are protected with XOR encryption" which means this level we're dealing wiht cookies, cookies are data stored by the application which is sent to the server when you open the site.
+
+## Method to solve:
+Open developer tools and navigate to cookies.
+I found 3 cookies out of which 2 had unreadable names and 1 was called data which im assuming is what we need to focus on.
+JSON->XOR->Base64 - Encode and opposite for decode of the cookie data.
+The xor encrypt function has an unknown key which is static but the algorithm itself is known, we can manipulate it to give us the key using the plaintext and ciphertext.
+
+## Commands or code snippets (if any used)
+
+
+## Notes:
+Encryption is only as secure as the secret key protecting it.
