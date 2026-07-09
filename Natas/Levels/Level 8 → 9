@@ -1,0 +1,15 @@
+# Level 8 → 9
+
+## Goal + Theory:
+The site had a textbox which would search through its text file and grep the input then provide us the output. The source code of how the input and retrieval is handled was given.
+
+## Method to solve:
+After viewing the source code, the retrieval was utilizing a command without being sanitized. We know the directory of the password so all we need to do is come up with a command that will retrieve the password.
+
+## Commands or code snippets (if any used)
+passthru("grep -i $key dictionary.txt"); -from source code
+
+; cat /etc/natas_webpass/natas10 -code to write in the input
+
+## Notes:
+; is used to tell the system to finish the current command then execute the next regardless of outcome of the previous command.
