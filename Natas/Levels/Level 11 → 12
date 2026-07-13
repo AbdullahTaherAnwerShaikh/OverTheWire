@@ -1,0 +1,13 @@
+# Level 11 → 12
+
+## Goal + Theory:
+The uploaded file gets a randomly generated file path on the server. You get the url to the file, by clicking it you execute the file.
+
+## Method to solve:
+It might be possible to send a code by uploading the file, aiming to perform Remote Code Execution (RCE).
+Uploading a file prints out a redirection link to where the file is stored. When clicking the URL the file is being executed supposedly.
+The file is being stored as .jpg but it can be changed to .php so we can execute our script.
+
+## Commands or code snippets (if any used)
+
+## Notes:
