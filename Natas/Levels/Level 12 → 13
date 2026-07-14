@@ -1,0 +1,13 @@
+# Level 12 → 13
+
+## Goal + Theory:
+This time they only accept images for uploads.
+
+## Method to solve:
+The code uses exif_imagetype, which just checks the images starting magic number.
+Using python code to create a php file that will have th emagic number header in bytes and the php script.
+
+## Commands or code snippets (if any used)
+
+## Notes:
+The magic number will only be detected if it is in bytes.
