@@ -1,0 +1,13 @@
+# Level 13 → 14
+
+## Goal + Theory:
+A username and password field are provided. In the source code it connect to a remote database and checks the db for the given user, if the user exists it will provide the password for the next level.
+
+## Method to solve:
+Since the query only checks if number of rows is greater than 0 to show the password, we can use sql injection to get the query to display every row possible.
+
+## Commands or code snippets (if any used)
+" OR 1=1--
+
+## Notes:
+Figure out how the final query functions.
