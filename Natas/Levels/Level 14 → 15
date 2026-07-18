@@ -1,0 +1,14 @@
+# Level 14 → 15
+
+## Goal + Theory:
+A username field is given, with only 3 replies depending on what the query returns either truw or false "User exists", "User doesn't exist" or "ERROR in query".
+
+## Method to solve:
+We dont recieve the password if a user exists, but we can check if the password is correct by checking each alphabet one by one using the substring function.
+
+## Commands or code snippets (if any used)
+natas16" AND substring(password,1,1)="b
+
+## Notes:
+Instead of manually checking each letter we created a python script.
+Always look at the query and substitue your input and walkthrough it.
