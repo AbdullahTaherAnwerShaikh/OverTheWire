@@ -1,0 +1,13 @@
+# Level 15 → 16
+
+## Goal + Theory:
+Given a text field which returns words that have a substring of input. Although the string is checked for connection operators, which prevents us from injecting a command.
+
+## Method to solve:
+outer_command $(inner_command) ,This can be used to run a command inside a command and these symbols arent blacklisted. Its a nested command.
+We are pretty much using the same method we used in level 15, where we found out each letter of the password one at a time.
+
+## Commands or code snippets (if any used)
+
+## Notes:
+I tried python requests to solve this level. The code will be provided in scripts.
