@@ -14,4 +14,4 @@ response = session.post(url , auth=(username, password),data=data)
 content = response.text
 
 #print (content)
-print (re.findall("/etc/natas_webpass/natas10:(.*)",content)[0])
+print (re.findall("/etc/natas_webpass/natas11:(.*)",content)[0])
